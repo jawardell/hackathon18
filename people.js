@@ -1,6 +1,8 @@
 const TreeMap = require("treemap-js");
 map = new TreeMap();
 
+
+
 var people = [];
 
 
@@ -33,11 +35,17 @@ class Person {
 
 function displayPeople() {
 	map.each(function(value, key) {
-		document.getElementById().innerHTML = map.get(key).tostring() + "<br>";
+		document.getElementById("array").innerHTML = map.get(key).tostring() + "<br>";
 	});
 }
 
+function printArray(array) {
+	initArray();
+	for(var i = 0; i < array.length; i++) {
+		document.getElementById("array").innerHTML = array[i].tostring() + "<br>";
+	}
 
+}
 
 
 
@@ -53,7 +61,7 @@ function makePerson() {
 
 	
 	map.set(person.score, person);
-	//updateData();
+	array[score] = person;
 }
 
 function updateData(person) {
@@ -70,7 +78,16 @@ function assembleTreeMap() {
 }
 
 
+function initArray() {
+	for(var i = 0; i < array.length; i++) {
+		if(isNaN(array[i])) {
+			array[i] = 0;
+		}
+	
+	}
 
+
+}
 
 
 
