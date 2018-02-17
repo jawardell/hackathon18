@@ -1,5 +1,7 @@
 const TreeMap = require("treemap-js");
-import System.IO;
+map = new TreeMap();
+
+var people = [];
 
 
 class Person {
@@ -23,9 +25,21 @@ class Person {
 		res += password + " ";
 		res += trash + " ";
 		res += water + " "
-	
+	}
 	
 }
+
+
+
+function displayPeople() {
+	map.each(function(value, key)) {
+		document.getElementById().innerHTML = map.get(key).tostring() + <br>;
+	}});
+}
+
+
+
+
 
 
 function makePerson() {
@@ -34,10 +48,12 @@ function makePerson() {
 		email = document.getElementById("email");//get	email 
 		water = parseFloat(document.getElementById("water"));//get water usage
 		trash = parseFloat(document.getElementById("trash"));//get trash made
-		score = 0.0; //init score to zero
+		score = person.calcScore(); //init score to zero
 	};
 
-	updateData();
+	
+	map.set(person.score, person);
+	//updateData();
 }
 
 function updateData(person) {
@@ -52,10 +68,13 @@ function assembleTreeMap() {
 	//read from text file
 	//make tree map entry 
 }
-var map = new TreeMap();
 
 
 
 
 
-map.set();
+
+
+
+
+
