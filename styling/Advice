@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Stats and Tips</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        body {
+            background-color: black;
+            color:red;
+        }
+
+    </style>
+</head>
+<body>
+    <h2>Some useful tips on how to reduce, reuse, and recycle:</h2>
+    <ol>
+        <li>Instead of using plastic, use glass jars, containers, and/ or metal/ reusable water bottles.</li>
+        <li>Recycle some water usage for your house plants.</li>
+        <li>Encourage an artist! They can use the recycled items to build things like a house or any other resources like a solar panel.</li>
+        <li>Instead of paper, we can digitally document everything we need on day to day life.</li>
+        <li>When going grocery shopping, use a reusable bag that you bring yourself instead of the plastic bags they have there.</li>
+    </ol>
+
+    <table>
+        <tr>
+            <td colspan="2" style="text-align:center">Statistics</td>
+        </tr>
+        <tr>
+            <td>
+                <p>Valdosta average Waste</p>
+                <ul>
+                    <li>Average Population: 56474</li>
+                    <li>4.40 lbs * 56,474 people = 248,485.6 lbs of trash produced</li>
+                    <li>1.51 lbs * 56,474 people = 85,275.74 lbs of trash recycled</li>
+                    <li>Overall: 163,209.86 lbs of trash STILL NOT recycled</li>
+                </ul>
+            </td>
+            <td>
+                <p>Valdosta State University average waste</p>
+                <ul>
+                    <li>The Population of VSU: 11,436 (Average)</li>
+                    <li>4.40 lbs * 11,436 people = 50,318.40 lbs of trash produced</li>
+                    <li>1.51 lbs * 11,436 people = 17,268.36 lbs of trash recycled</li>
+                    <li>Overall: 33.050.04 lbs of trash STILL NOT recycled</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+
+
+</body>
+</html>
