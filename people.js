@@ -41,26 +41,16 @@ function makePerson() {
 }
 
 function updateData(person) {
-	var sw : StreamWriter = new StreamWriter("data");
-	sw.WriteLine(person.tostring());
-	sw.Flush();
-	sw.Close();
+	//print to textfile 
+	//data
 }
 
 
 
-function assembleTreeMap() {
-   sr = new File.OpenText(data);
- 
-    input = "";
-    while (true) {
-        input = sr.ReadLine();
-        if (input == null) { break; }
-        Debug.Log("line="+input);
-    }
-    sr.Close();	
-	
 
+function assembleTreeMap() {
+	//read from text file
+	//make tree map entry 
 }
 var map = new TreeMap();
 
