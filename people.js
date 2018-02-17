@@ -32,7 +32,7 @@ class Person {
 
 
 function displayPeople() {
-	map.each(function(value, key)) {
+	map.each(function(value, key) {
 		document.getElementById().innerHTML = map.get(key).tostring() + <br>;
 	}});
 }
