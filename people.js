@@ -1,5 +1,5 @@
-const TreeMap = require("treemap-js");
-map = new TreeMap();
+//const TreeMap = require("treemap-js");
+//map = new TreeMap();
 
 
 
@@ -27,6 +27,7 @@ class Person {
 		res += password + " ";
 		res += trash + " ";
 		res += water + " "
+		return res;
 	}
 	
 }
@@ -39,10 +40,13 @@ function displayPeople() {
 	});
 }
 
-function printArray(array) {
+function printArray() {
 	initArray();
-	for(var i = 0; i < array.length; i++) {
-		document.getElementById("array").innerHTML = array[i].tostring() + "<br>";
+	for(var i = 0; i < people.length; i++) {
+		if(people[i] != 0) {
+			document.getElementById("array").innerHTML = people[i].tostring() + "<br>";	
+		}
+	
 	}
 
 }
@@ -52,16 +56,16 @@ function printArray(array) {
 
 function makePerson() {
 	var person = {
-		name : document.getElementById("name"),//get name
-		email :  document.getElementById("email"),//get	email 
-		water : parseFloat(document.getElementById("water")),//get water usage
-		trash : parseFloat(document.getElementById("trash")),//get trash made
-		score : person.calcScore() //init score to zero
+		name : document.getElementById("name").value,//get name
+		email :  document.getElementById("email").value,//get	email 
+		water : parseFloat(document.getElementById("water").value),//get water usage
+		trash : parseFloat(document.getElementById("trash").value),//get trash made
+		score : 0 //init score to zero
 	};
-
+	person.calcScore;
 	
-	map.set(person.score, person);
-	array[score] = person;
+//	map.set(person.score, person);
+	people[person.score] = person;
 }
 
 function updateData(person) {
@@ -79,9 +83,9 @@ function assembleTreeMap() {
 
 
 function initArray() {
-	for(var i = 0; i < array.length; i++) {
-		if(isNaN(array[i])) {
-			array[i] = 0;
+	for(var i = 0; i < people.length; i++) {
+		if(isNaN(people[i])) {
+			people[i] = 0;
 		}
 	
 	}
