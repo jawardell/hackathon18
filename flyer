@@ -5,16 +5,16 @@
     <title></title>
     <style>
         body {
-            background-image: url("recycle.jpg");
+            background-image: url("planet.jpg");
         }
 
         .title {
             text-align: center;
-            color: darkred;
+            color: floralwhite;
         }
 
         .row {
-            color: darkred;
+            color: floralwhite;
         }
 
         .container {
@@ -36,7 +36,7 @@
             <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Ranking</a>
+            <a class="nav-link" href="#">Leaderboards</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Profile</a>
@@ -58,7 +58,9 @@
         <div class="row">
           <div class="col-md-4">
             <h2>Where?</h2>
-            <p>The event will take place from 5pm-7pm on the Front Lawn</p>
+            <p>The event will take place from 5pm-7pm on the Front Lawn. This occasion
+                is open to the Valdosta community, not just students.
+            </p>
           </div>
           <div class="col-md-4">
             <h2>Activities</h2>
@@ -71,12 +73,14 @@
           </div>
           <div class="col-md-4">
             <h2>How to earn Prizes</h2>
-            <
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            <p>Attendees can bring recyclables to our recycling booth and we will reward those with points to add to their profile.
+               The more you bring, the better the benefits e.g. coupons for the VSU bookstore, t-shirts, waivers for <strong>FREE FOOD</strong> at the gathering, etc.
+            </p>
           </div>
         </div>
 
-        <hr>
+        <h3 style="color:papayawhip">Take the time to stop by and learn about preserving the environmet. Invite friends and family to come out and have fun. 
+            Hope to see you there! </h3>
 
       </div>
 </body>
