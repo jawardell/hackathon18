@@ -197,6 +197,8 @@ hr.style {
   </style>
     
 <script>
+ 
+   var finalscore = 0; 
  $(document).ready(function() {
           $("#slider").slider({
               animate: true,
@@ -276,10 +278,12 @@ hr.style {
          if(total_gallons > 100){
              text1 = "more";
              $("#amount-label").css("color", "red");
+             finalscore = finalscore -  1;
          }
           else{
               text1 = "less";
               $("#amount-label").css("color", "green");
+              finalscore = finalscore +  1;
           }
           
          $( "#amount-label" ).text(Math.abs((100 - total_gallons)) +"% "+text1);
@@ -294,6 +298,8 @@ hr.style {
           else{
               text1 = "less";
               $("#duration-label").css("color", "green");
+              finalscore = finalscore +  1;
+              finalscore = finalscore -  1;
           }
          $( "#duration-label" ).text(Math.abs((100 - 33*$duration)) +"% "+text1);
          $( "#shower" ).val($shower);
@@ -304,11 +310,14 @@ hr.style {
           text1 = "";
          if($recy > 34){
              text1 = "more";
-             $("#recy-label").css("color", "red");
+             $("#recy-label").css("color", "green");
+             finalscore = finalscore +  1;
          }
           else{
               text1 = "less";
-              $("#recy-label").css("color", "green");
+              $("#recy-label").css("color", "red");
+              finalscore = finalscore -  1;
+              
           }
           $("#recy-label").text(recycle + "% " + text1);
          // var total = Math.abs($total);
@@ -318,7 +327,22 @@ hr.style {
          $('#slider2 a').html('<label><span class="glyphicon glyphicon-chevron-left"></span> '+$duration+' <span class="glyphicon glyphicon-chevron-right"></span></label>');
          $('#slider3 a').html('<label><span class="glyphicon glyphicon-chevron-left"></span> '+$shower+' <span class="glyphicon glyphicon-chevron-right"></span></label>');
          $('#slider4 a').html('<label><span class="glyphicon glyphicon-chevron-left"></span> '+$recy+' <span class="glyphicon glyphicon-chevron-right"></span></label>');
-      }     
+      }   
+    
+    function buttonPress(){
+        
+        if(finalscore < 3) {
+        window.open("rank1.html");
+        }
+        else{
+        window.open("rank2.html");
+        }
+        
+    }
+    
+    
+
+    
     </script>
       
 </head>
@@ -421,7 +445,7 @@ hr.style {
 
           <div class="form-group">
             <div class="col-sm-12">
-              <button type="submit" class="btn btn-primary btn-lg btn-block">See Where You Rank <span class="glyphicon glyphicon-chevron-right pull-right" style="padding-right: 10px;"></span></button>
+                <button class="btn btn-primary btn-lg btn-block"  onclick="buttonPress()" >See Your Rank<span class="glyphicon glyphicon-chevron-right pull-right" style="padding-right: 10px;"></span></button>
             </div>
           </div>
 
