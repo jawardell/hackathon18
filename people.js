@@ -19,8 +19,11 @@ class Person {
 	function tostring() {
 		var res = "";
 		res += name + " ";
-		res += username
-	}
+		res += username + " ";
+		res += password + " ";
+		res += trash + " ";
+		res += water + " "
+	
 	
 }
 
@@ -34,12 +37,30 @@ function makePerson() {
 		score = 0.0; //init score to zero
 	};
 
-	
+	updateData();
 }
 
-function updateData() {
+function updateData(person) {
 	var sw : StreamWriter = new StreamWriter("data");
-	sw.WriteLine();
+	sw.WriteLine(person.tostring());
+	sw.Flush();
+	sw.Close();
+}
+
+
+
+function assembleTreeMap() {
+   sr = new File.OpenText(data);
+ 
+    input = "";
+    while (true) {
+        input = sr.ReadLine();
+        if (input == null) { break; }
+        Debug.Log("line="+input);
+    }
+    sr.Close();	
+	
+
 }
 var map = new TreeMap();
 
