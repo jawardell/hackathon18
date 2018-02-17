@@ -33,8 +33,8 @@ class Person {
 
 function displayPeople() {
 	map.each(function(value, key) {
-		document.getElementById().innerHTML = map.get(key).tostring() + <br>;
-	}});
+		document.getElementById().innerHTML = map.get(key).tostring() + "<br>";
+	});
 }
 
 
@@ -44,11 +44,11 @@ function displayPeople() {
 
 function makePerson() {
 	var person = {
-		name = document.getElementById("name");//get name
-		email = document.getElementById("email");//get	email 
-		water = parseFloat(document.getElementById("water"));//get water usage
-		trash = parseFloat(document.getElementById("trash"));//get trash made
-		score = person.calcScore(); //init score to zero
+		name : document.getElementById("name"),//get name
+		email :  document.getElementById("email"),//get	email 
+		water : parseFloat(document.getElementById("water")),//get water usage
+		trash : parseFloat(document.getElementById("trash")),//get trash made
+		score : person.calcScore() //init score to zero
 	};
 
 	
