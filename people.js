@@ -17,20 +17,28 @@ class Person {
 	parseWater(water) {
 		this.water = water;
 	}
+
+	calcScore() {
+		this.score = Math.random();
+	}
 }
 
 
 function makePerson() {
 	var person = {
-		name = document.getElementById();//get name
-		email = document.getElementById();//get	email 
-		water = document.getElementById();//get water usage
-		trash = document.getElementById();//get trash made
-
+		name = document.getElementById("name");//get name
+		email = document.getElementById("email");//get	email 
+		water = document.getElementById("water");//get water usage
+		trash = document.getElementById("trash");//get trash made
+		score = 0.0; //init score to zero
 	};
+
+	
 }
 
+function () {
 
+}
 var map = new TreeMap();
 
 
