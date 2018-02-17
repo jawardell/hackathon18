@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        body {
+            background-image: url("recycle.jpg");
+        }
+
+        .title {
+            text-align: center;
+            color: darkred;
+        }
+
+        .row {
+            color: darkred;
+        }
+
+        .container {
+            font-weight: 700;
+        }
+
+    </style>
+    <link href="../../../../dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+      <a class="navbar-brand" href="#">Invitation</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Ranking</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Profile</a>
+          </li>
+        </ul>
+        <form class="form-inline mt-2 mt-md-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+
+     
+    <h1 class="title"><strong>This is an invitation to our semi annual Recycle Party!</strong></h1>
+    <h2 class="title">FOOD!! DRINKS!! GAMES!! FUN!!</h2>
+
+    <div class="container">
+        <!-- Example row of columns -->
+        <div class="row">
+          <div class="col-md-4">
+            <h2>Where?</h2>
+            <p>The event will take place from 5pm-7pm on the Front Lawn</p>
+          </div>
+          <div class="col-md-4">
+            <h2>Activities</h2>
+            <ul>
+                <li>Corn Hole</li>
+                <li>Ring Toss</li>
+                <li>Moon Walk</li>
+                <li>Obstacle Course</li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h2>How to earn Prizes</h2>
+            <
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          </div>
+        </div>
+
+        <hr>
+
+      </div>
+</body>
+</html>
