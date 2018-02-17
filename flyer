@@ -13,6 +13,14 @@
             color: darkred;
         }
 
+        .row {
+            color: darkred;
+        }
+
+        .container {
+            font-weight: 700;
+        }
+
     </style>
     <link href="../../../../dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
@@ -25,7 +33,7 @@
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Ranking</a>
@@ -45,8 +53,31 @@
     <h1 class="title"><strong>This is an invitation to our semi annual Recycle Party!</strong></h1>
     <h2 class="title">FOOD!! DRINKS!! GAMES!! FUN!!</h2>
 
-    <p>VSU will be having a recycle party on the front lawn.
-        The event is to raise awareness 
-    </p>
+    <div class="container">
+        <!-- Example row of columns -->
+        <div class="row">
+          <div class="col-md-4">
+            <h2>Where?</h2>
+            <p>The event will take place from 5pm-7pm on the Front Lawn</p>
+          </div>
+          <div class="col-md-4">
+            <h2>Activities</h2>
+            <ul>
+                <li>Corn Hole</li>
+                <li>Ring Toss</li>
+                <li>Moon Walk</li>
+                <li>Obstacle Course</li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h2>How to earn Prizes</h2>
+            <
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          </div>
+        </div>
+
+        <hr>
+
+      </div>
 </body>
 </html>
