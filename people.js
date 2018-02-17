@@ -14,11 +14,11 @@ class Person {
 		this.water = 0.0;
 	}
 
-	function calcScore() {
+	calcScore() {
 		this.score = Math.random();
 	}
 	
-	function tostring() {
+	tostring() {
 		var res = "";
 		res += name + " ";
 		res += username + " ";
