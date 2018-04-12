@@ -1,4 +1,4 @@
-# Reduce Reuse Recycle
+# Reduce, Reuse, and Recycle
 
 This is our response to the 2018 Azalea Health Hack-A-Thon. We wanted to start an initiative for recycling which would get not only VSU students involved but also members of the neighboring community. Some of the key ideas encapsualted in this app are: 
 
