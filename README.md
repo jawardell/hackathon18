@@ -12,6 +12,7 @@ Some of the technologies that we used to create this app are:
 - HTML and CSS
 - Bootstrap CSS
 - Heroku
+- PHP
 
 [application demo](https://evening-shelf-57192.herokuapp.com/ "application demo")
 
