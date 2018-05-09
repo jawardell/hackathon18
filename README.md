@@ -2,7 +2,7 @@
 
 This is our response to the 2018 Azalea Health Hack-A-Thon. We wanted to start an initiative for recycling which would get not only VSU students involved but also members of the neighboring community. Some of the key ideas encapsulated in this app are: 
 
-- informing people of a semi-anual recylcing awareness event hosted by VSU
+- informing people of a semi-annual recylcing awareness event hosted by VSU
 - hosting a leaderboard for community recyclers
 - offering a self-assesment for energy usage 
 - making calculations about recycling using community statistics
